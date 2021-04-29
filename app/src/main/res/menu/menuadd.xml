@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_add_24"
+        app:showAsAction="always"
+        android:title="add">
+
+        <menu>
+            <item
+                android:title="Tạo nhóm" />
+
+            <item
+                android:title="Thêm bạn" />
+
+            <item
+                android:title="Lịch sử đăng nhập" />
+
+            <item
+                android:title="Lịch Zalo" />
+
+            <item
+                android:title="Truyền file" />
+            <item
+                android:title="Tạo cuộc gọi nhóm" />
+        </menu>
+
+    </item>
+</menu>
